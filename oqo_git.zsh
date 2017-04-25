@@ -42,8 +42,9 @@ zplug "dmcgowan/git-branch-status"
 #  A simple zsh plugin for a command to git
 #  pull, git add all files, commit, and push -- all in one command
 # https://github.com/robertzk/send.zsh
-zplug "robertzk/send.zsh", \
-    from:gh-r
+
+## zplug "robertzk/send.zsh", \
+## from:gh-r
 
 #  ZSH plugin for creating .gitignore files.
 # TODO Not downloading
