@@ -22,6 +22,19 @@ zplug "colinodell/git-amend-old"
 # https://github.com/dmcgowan/git-branch-status
 zplug "dmcgowan/git-branch-status"
 
+# Support oh-my-zsh plugins and the like
+zplug "plugins/git",   from:oh-my-zsh, if:"which git"
+########################################
+
+#  peco/percol/fzf wrapper plugin for zsh
+zplug "mollifier/anyframe"
+
+#  Terminal/tmux titles based on current location and task
+# https://github.com/jreese/zsh-titles
+
+#  Auto-close and delete matching delimiters in zsh
+zplug "hlissner/zsh-autopair"
+
 # A collection of Zsh functions to augment Git
 #https://github.com/Prelang/g
 # Not sure if working
@@ -38,7 +51,7 @@ zplug "dmcgowan/git-branch-status"
 # zplug "unixorn/git-extra-commands.git", \
 #     as:command, \
 #     from:github
-#
+
 #  A simple zsh plugin for a command to git
 #  pull, git add all files, commit, and push -- all in one command
 # https://github.com/robertzk/send.zsh
@@ -54,7 +67,7 @@ zplug "voronkovich/gitignore.plugin.zsh"
     # use:"*.zsh", \
     # as:command, \
     # rename-to:gi
-#
+
 # Useful aliases for interacting with GitHub more quickly.
 # https://github.com/peterhurford/git-aliases.zsh
 zplug "peterhurford/git-aliases.zsh"
@@ -64,7 +77,6 @@ zplug "peterhurford/git-aliases.zsh"
 # Useful for other Git references
 #https://github.com/unixorn/git-extra-commands
 zplug "unixorn/git-extra-commands"
-
 
 #  Quickly navigate GitHub from the command line.
 #  https://github.com/peterhurford/git-it-on.zsh
@@ -77,27 +89,26 @@ zplug "Seinh/git-prune"
 # zplug "Seinh/git-prune", \
 #     as:command, \
 #     from:oh-my-zsh
-#
-#
+
 #  An Antigen/zsh script to help with rebasing
 # zplug "smallhadroncollider/antigen-git-rebase"
 
 # A zsh plugin to sync git repositories and clean them up.
 #https://github.com/caarlos0/zsh-git-sync
-#
+
 # ZSH plugin to easily add the upstream remote to your git fork.
 #https://github.com/caarlos0/git-add-remote
-#
+
 #https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/fasd
 #https://github.com/clvv/fasd
-#
+
 #  Git ZShell Prompt
 # https://github.com/matthewmccullough/Git-ZShell-Prompt
 
 # A prompt
 # Towards better Zsh Git integration http://www.wunjo.org/zsh-git
 #https://github.com/jcorbin/zsh-git
-#
+
 # ZSH plugin to open pull requests from command line.
 #https://github.com/caarlos0/zsh-open-pr
 
@@ -107,7 +118,6 @@ zplug "Seinh/git-prune"
 #  An Antigen/zsh script to save the current Git working directory
 # For workflows between computers to save midsession
 # zplug "smallhadroncollider-deprecated/antigen-git-store"
-#
+
 #git helper scripts for dealing with repos on bitbucket
 #https://github.com/unixorn/bitbucket-git-helpers.plugin.zsh
-#
